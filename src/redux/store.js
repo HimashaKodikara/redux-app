@@ -1,7 +1,6 @@
-import { legacy_createStore as createStore} from 'redux'
-import cakeReducer from './cakes/cakereducer'
+import { legacy_createStore as createStore } from "redux";
+import rootReducer from "./rootReducer";
 
-const store = createStore(cakeReducer)
+const store = createStore(rootReducer);
 
-export default store
-
+export default store;
